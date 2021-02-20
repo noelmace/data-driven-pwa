@@ -1,24 +1,30 @@
 {
   "name": "@wof/data-driven-pwa",
-  "version": "1.0.0-alpha.1",
-  "homepage": "https://next.wof.show/codelabs/doc/modern-data-driven",
+  "version": "1.0.0",
+  "homepage": "https://fullweb.dev/docs/codelabs",
   "private": true,
   "author": {
     "name": "Noël Macé",
     "email": "contact@noelmace.com",
     "web": "https://noelmace.com"
   },
-  "description": "WoF codelab project",
+  "description": "Learn how to add background sync to a data-driven PWA, as well as notifications, and the latest modern web platform capabilities.",
   "keywords": [
-    "codelabs"
+    "codelabs",
+    "modern-web",
+    "PWA",
+    "background-sync",
+    "learning",
+    "notifications",
+    "service-worker"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/noelmace/web-on-fire.git"
+    "url": "git://github.com/fullwebdev/data-driven-pwa.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/noelmace/web-on-fire/issues"
+    "url": "https://github.com/fullwebdev/data-driven-pwa/issues"
   },
   "scripts": {
     "postinstall": "lerna bootstrap",
@@ -27,6 +33,6 @@
   "devDependencies": {
     "@types/diff": "^4.0.2",
     "diff": "^4.0.2",
-    "lerna": "^3.20.2"
+    "lerna": "^3.21.0"
   }
 }
